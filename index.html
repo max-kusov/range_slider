@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Slider★</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="js/app.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <span>Price Slider</span>
+            <div class="box-div">
+                <div class="box-out">
+                    <span class="out-js"></span>
+                </div>
+                <input class="slider" type="range" min="0" max="100">
+                <div class="box-input">
+                    <input class="slider-input" type="number">
+                    <div class="input-text"></div>
+                </div>
+            </div>
+        </div>
+        <div class="test-box">
+            <div class="input-box">
+                <input type="number" class="input-value valueleft">
+                <input type="number" class="input-value valueright">
+            </div>
+
+            <div class="slider-test">
+                <input class="input-left" type="range" min="0" max="100" value="35">
+                <input class="input-right" type="range" min="0" max="100" value="65">
+                <div class="slider-track"></div>
+                <div class="slider-range"></div>
+                <div class="value-box value-left">
+                    <div class="value-text value-l"></div>
+                </div>
+                <div class="value-box value-right">
+                    <div class="value-text value-r"></div>
+                </div>
+                <div class="cursor-left"></div>
+                <div class="cursor-right"></div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
